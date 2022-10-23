@@ -1,0 +1,148 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <title> Login page</title>
+  <style>
+  .language{
+      justify-content: space-between;
+      text-align:center;
+      
+  
+  }
+    span{
+      color:blue;
+    }
+   
+   .login button{
+     background-color: #3E73EB;
+     color:white;
+     border-color: transparent;
+     width:260px;
+     height:30px;
+     
+     
+   }
+  .create button{
+    width:260px;
+    height:30px;
+    
+  }
+   
+   .forgot{
+     color: #2567FF;
+     
+     
+   }
+    .create button{
+      background-color:#0FA207;
+      color:white;
+     border-color: transparent;
+    }
+ 
+     
+   #newsletter input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+   }
+   #newsletter input[type="password"]{
+  padding:4px;
+  height:25px;
+  width:250px;}
+.login button:hover{
+    border-color: #0A1EF9;
+    background-color: #3AAD98;
+  }
+  .create button:hover{
+    border-color: black;
+  }
+  input{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-color:#A0A0A0;
+   
+  }
+  .forgot button{
+    border:none; 
+    background-color: transparent;
+    color:blue;
+  }
+  .forgot button:hover{
+    color:red;
+  }
+  img {
+         display:block;
+         margin: 0 auto;
+         width: 180;
+         height:180px;
+          }
+           </style>
+  </head>
+<body>
+<img src="cover.jpg">
+<div class="language">
+English
+   • Español
+    • <span>More</span>
+
+</div>
+<br>
+
+<section id="newsletter">
+<div class="form">
+<form align="center" >
+<input type="text" placeholder="Enter phone no or email address"> <br>
+<br>
+<input type="password" placeholder="Password"
+>
+</section><br>
+</form>
+<br>
+
+<div class="login" align="center" onclick="show();">
+    <button>Login</button>
+    </div>
+    <script>
+    function show(){
+      var a= "padhna jaa mula sag";
+     alert(a);
+      }
+      </script>
+    
+<br>
+
+<div class="forgot" align="center"><b><button onclick="o();" > <b>Forgotten Password?</b></button></b></div>
+<script> function o(){
+  alert("thukka tero dimag ! password pani birsis!")
+}
+</script>
+</section>
+
+<br>
+<br>
+<br>
+<hr>
+<p align="center">OR</P>
+<br>
+<br>
+<br>
+<div class="create" align="center"><button onclick="prnt();"><b>Creat New Facebook Account</b></button>
+  <script>
+    function prnt(){
+      alert("tero Facebook chalaune umer vako xaina padhna jaa")
+    }
+  </script>
+  </div>
+    <br>
+    <br>
+
+    <p align="center">By Bibas Parajuli</p>
+</body>
+
+</html>
